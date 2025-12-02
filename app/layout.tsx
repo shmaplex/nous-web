@@ -17,7 +17,16 @@ export const metadata: Metadata = {
 	title: "Nous — Decentralized Intelligence Platform",
 	description:
 		"Join Nous, a decentralized platform for collaborative intelligence.",
-	metadataBase: new URL("https://nous.shmaplex.com"), // ✅ Add this
+	keywords: [
+		"decentralized intelligence",
+		"Nous",
+		"P2P network",
+		"collaborative analysis",
+		"IPFS",
+		"OrbitDB",
+	],
+	authors: [{ name: "Nous Team", url: "https://nous.shmaplex.com" }],
+	metadataBase: new URL("https://nous.shmaplex.com"),
 
 	openGraph: {
 		title: "Nous — Decentralized Intelligence Platform",
@@ -27,20 +36,14 @@ export const metadata: Metadata = {
 		siteName: "Nous",
 		images: [
 			{
-				url: "/logo.svg",
-				width: 512,
-				height: 512,
-				alt: "Nous Logo",
+				url: "https://nous.shmaplex.com/share.png",
+				width: 1200,
+				height: 630,
+				alt: "Nous — Decentralized Intelligence Platform",
 			},
 		],
+		locale: "en_US",
 		type: "website",
-	},
-	twitter: {
-		card: "summary_large_image",
-		title: "Nous — Decentralized Intelligence Platform",
-		description:
-			"Join Nous, a decentralized platform for collaborative intelligence.",
-		images: ["https://nous.shmaplex.com/share.png"],
 	},
 };
 
