@@ -49,6 +49,7 @@ export async function POST(req: NextRequest) {
 		const timestamp = new Date().toISOString();
 
 		const data = await pinata.upload.public.json({
+			name: `nous-waitlist-${username}-${Date.now()}`,
 			code,
 			username,
 			role: finalRole,
