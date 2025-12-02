@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/shmaplex/nous-web/public/logo.png" alt="Nous Foundation Logo" width="150" />
+  <img src="https://github.com/shmaplex/nous-web/blob/main/public/logo-universal.png" alt="Nous Foundation Logo" width="150" />
 </p>
 
 # Nous Foundation Website
