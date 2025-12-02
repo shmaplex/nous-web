@@ -1,6 +1,6 @@
 "use client";
 
-import { BookOpen, Heart } from "lucide-react";
+import { Heart, Scale } from "lucide-react";
 import Link from "next/link";
 import { siGithub } from "simple-icons";
 import { Button } from "./ui/button";
@@ -32,7 +32,7 @@ export default function Footer() {
 					rel="noopener noreferrer"
 					className="flex items-center gap-1 hover:text-gray-700 transition"
 				>
-					<BookOpen className="w-4 h-4" />
+					<Scale className="w-4 h-4" />
 					<span>CSL</span>
 				</a>
 				<a
@@ -50,7 +50,7 @@ export default function Footer() {
 					rel="noopener noreferrer"
 					className="flex items-center gap-1 hover:text-gray-700 transition"
 				>
-					<BookOpen className="w-4 h-4" />
+					<Scale className="w-4 h-4" />
 					<span>License</span>
 				</a>
 			</div>
