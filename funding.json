@@ -1,0 +1,81 @@
+{
+  "version": "v1",
+  "entity": {
+    "type": "group",
+    "role": "steward",
+    "name": "Nous",
+    "email": "team@shmaplex.com",
+    "description": "Nous is a nonprofit, community-governed intelligence platform that aggregates, preserves, and contextualizes global news and public information. It focuses on transparency, provenance, and bias-mapping to help people understand how narratives form—without corporate influence or algorithmic manipulation.",
+    "webpageUrl": {
+      "url": "https://nous.shmaplex.com"
+    }
+  },
+  "projects": [
+    {
+      "guid": "nous",
+      "name": "Nous",
+      "description": "Nous is an open, decentralized news and intelligence platform delivering raw, unfiltered reporting from around the world. Articles are archived with source attribution, translated when needed, and annotated with contextual signals such as origin, framing, and potential bias—empowering readers to form their own conclusions.",
+      "webpageUrl": {
+        "url": "https://nous.shmaplex.com"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/nous-organization"
+      },
+      "licenses": [
+        "LicenseRef-CSL"
+      ],
+      "tags": [
+        "decentralized-news",
+        "open-intelligence",
+        "journalism",
+        "media-literacy",
+        "bias-analysis",
+        "open-data",
+        "community-governance"
+      ]
+    }
+  ],
+  "funding": {
+    "channels": [
+      {
+        "guid": "github-sponsors",
+        "type": "payment-provider",
+        "address": "https://github.com/sponsors/shmaplex",
+        "description": "GitHub Sponsors for sustaining open-source development, infrastructure, and moderation."
+      },
+      {
+        "guid": "paypal",
+        "type": "payment-provider",
+        "address": "paypal.me/shmaplex",
+        "description": "One-time or recurring donations via PayPal."
+      }
+    ],
+    "plans": [
+      {
+        "guid": "general-support",
+        "status": "active",
+        "name": "General Project Support",
+        "description": "Support ongoing development, hosting, archiving, and maintenance of the Nous platform.",
+        "amount": 0,
+        "currency": "USD",
+        "frequency": "one-time",
+        "channels": [
+          "github-sponsors",
+          "paypal"
+        ]
+      },
+      {
+        "guid": "monthly-infra",
+        "status": "active",
+        "name": "Monthly Infrastructure Support",
+        "description": "Help cover decentralized storage, indexing, translation, and moderation tools.",
+        "amount": 25,
+        "currency": "USD",
+        "frequency": "monthly",
+        "channels": [
+          "github-sponsors"
+        ]
+      }
+    ]
+  }
+}
