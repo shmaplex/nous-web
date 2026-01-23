@@ -7,7 +7,7 @@
 Welcome to the **Nous Foundation** website — building open, decentralized intelligence.  
 This project is built with [Next.js](https://nextjs.org) and bootstrapped using [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app). Our website showcases decentralized news, tools, and open-source projects.
 
----
+[![FLOSS/fund badge](https://floss.fund/static/badge.svg)](https://floss.fund)
 
 ## Table of Contents
 
