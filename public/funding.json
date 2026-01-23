@@ -22,7 +22,7 @@
       },
       "repositoryUrl": {
         "url": "https://github.com/nous-organization",
-        "wellKnown": "https://github.com/shmaplex/korea-agdigest/blob/main/.well-known/funding-manifest-urls"
+        "wellKnown": "https://github.com/shmaplex/nous-web/blob/main/public/.well-known/funding-manifest-urls"
       },
       "licenses": [
         "LicenseRef-CSL"
