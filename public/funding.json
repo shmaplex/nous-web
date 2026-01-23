@@ -7,7 +7,8 @@
     "email": "team@shmaplex.com",
     "description": "Nous is a nonprofit, community-governed intelligence platform that aggregates, preserves, and contextualizes global news and public information. It focuses on transparency, provenance, and bias-mapping to help people understand how narratives form—without corporate influence or algorithmic manipulation.",
     "webpageUrl": {
-      "url": "https://nous.shmaplex.com"
+      "url": "https://nous.shmaplex.com",
+      "wellKnown": "https://nous.shmaplex.com/.well-known/funding-manifest-urls"
     }
   },
   "projects": [
@@ -16,10 +17,12 @@
       "name": "Nous",
       "description": "Nous is an open, decentralized news and intelligence platform delivering raw, unfiltered reporting from around the world. Articles are archived with source attribution, translated when needed, and annotated with contextual signals such as origin, framing, and potential bias—empowering readers to form their own conclusions.",
       "webpageUrl": {
-        "url": "https://nous.shmaplex.com"
+        "url": "https://nous.shmaplex.com",
+        "wellKnown": "https://nous.shmaplex.com/.well-known/funding-manifest-urls"
       },
       "repositoryUrl": {
-        "url": "https://github.com/nous-organization"
+        "url": "https://github.com/nous-organization",
+        "wellKnown": "https://github.com/shmaplex/korea-agdigest/blob/main/.well-known/funding-manifest-urls"
       },
       "licenses": [
         "LicenseRef-CSL"
